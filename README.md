@@ -10,3 +10,6 @@ Reference: https://tezos.gitlab.io/alpha/timelock.html
 ## common usage
 A cross-chain atomic swap is a type of peer-to-peer exchange between two different cryptocurrencies on separate blockchain networks. It allows for the exchange of one cryptocurrency for another without the need for a trusted third party or centralized exchange. It works by using HTLCs to ensure that both parties fulfill their part of the exchange, so neither party can cheat the other. This allows for more secure and decentralized trading between different cryptocurrencies.
 
+Reference: https://www.coindesk.com/tech/2021/08/20/a-beginners-guide-to-atomic-swaps/
+
+
