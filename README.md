@@ -38,6 +38,10 @@ You are encouraged to utilize as many possibilities offered by the chosen langua
 
 The smart contract that you will need to implement is called HashLock. You can find the LIGO implementation of it in the examples at LIGO IDE. You can also read more about them here. During the correction, you will likely be asked to explain the algorithm in your own words, so make sure that you understand it.
 
+
+[hashlock](https://gitlab.com/ligolang/ligo/-/blob/dev/src/test/examples/jsligo/hashlock.jsligo)
+
+
 Your implementation can differ slightly from the one in LIGO IDE, for example, if you want to improve it somehow. However, in such cases, during the correction, you should explicitly mention what you did differently (the default expectation is that you will try to create an implementation that is as identical to the LIGO one as possible).
 
 Before scheduling your correction, make sure that you have uploaded your solution to your Turing College repository. Also, add a readme file with the explanation of your smart contract and the address of it (in a testnet).
