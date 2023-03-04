@@ -15,6 +15,15 @@ A cross-chain atomic swap is a type of peer-to-peer exchange between two differe
 
 Reference: https://www.coindesk.com/tech/2021/08/20/a-beginners-guide-to-atomic-swaps/
 
+## Practical Example
+Suppose you and I want to exchange cryptocurrencies using an atomic swap.
+
+1.You deposits your cryptocurrency into an HTCL address, which acts like a virtual safe and can only be unlocked with a special key that she can access.
+2. You share a cryptographic hash of the special key with me, I deposits my cryptocurrency into an address created using the same cryptographic hash.
+3. Once I have deposited the cryptocurrency, You can use the currency by “unlocking” the transaction with the special key obtained from your initial deposit.
+4. After you have used the key to “unlock” the transaction, I can get access to his share of the exchange.
+5. Once both parties have access to their respective funds, the atomic swap is completed.
+
 ## Project
 Project Description
 Your goal is to take a smart contract in LIGO, then re-write and deploy it in another language – either SmartPy or Archetype. Which one you choose depends on your preference. We suggest first going over the basics of what both of them offer and only making a decision then. It is very useful to get acquainted with both of these, because most likely, if you are going to work in the Tezos ecosystem, sooner or later you will encounter both. Below, we give several guides for each of the languages. It is advisable to start with one tutorial that seems to be the most appropriate for your experience, but then as you go, check the other ones from time to time to ensure that you haven’t missed anything important.
