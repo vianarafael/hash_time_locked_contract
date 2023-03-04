@@ -24,6 +24,14 @@ Suppose you and I want to exchange cryptocurrencies using an atomic swap.
 - 4. After you have used the key to “unlock” the transaction, I can get access to his share of the exchange.
 - 5. Once both parties have access to their respective funds, the atomic swap is completed.
 
+## Why the use timelock?
+The passage of time can be used as a condition for releasing funds in certain types of cryptocurrency transactions to ensure that both parties involved in the transaction fulfill their respective obligations within a specified period.
+
+For example, imagine Alice wants to pay Bob for a service, but she wants to make sure that Bob completes the service before the payment is released to him. Alice can use a hashlock to create a digital lock on the payment that requires a specific code (hash) to unlock it. She can then specify that the hash can only be generated after a certain period of time has passed since the lock was created.
+
+This means that Bob will only receive payment after a specified period has passed, and Alice can be sure that Bob has completed the service as agreed upon. If Bob fails to complete the service within the specified time, Alice can simply choose not to release the payment by keeping the hash secret, and the lock remains in place.
+
+Overall, the use of time as a condition in hashlocks provides an added layer of security and trust in cryptocurrency transactions.
 
 ## Resources for learning SmartPy:
 [B9Lab](https://tezos.b9lab.com/smartpy/intro)
