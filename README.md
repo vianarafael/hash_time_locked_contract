@@ -18,7 +18,7 @@ Reference: https://www.coindesk.com/tech/2021/08/20/a-beginners-guide-to-atomic-
 ## Practical Example
 Suppose you and I want to exchange cryptocurrencies using an atomic swap.
 
-- 1.You deposits your cryptocurrency into an HTCL address, which acts like a virtual safe and can only be unlocked with a special key that she can access.
+- 1. You deposits your cryptocurrency into an HTCL address, which acts like a virtual safe and can only be unlocked with a special key that she can access.
 - 2. You share a cryptographic hash of the special key with me, I deposits my cryptocurrency into an address created using the same cryptographic hash.
 - 3. Once I have deposited the cryptocurrency, You can use the currency by “unlocking” the transaction with the special key obtained from your initial deposit.
 - 4. After you have used the key to “unlock” the transaction, I can get access to his share of the exchange.
