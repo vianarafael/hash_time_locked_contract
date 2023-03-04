@@ -1,3 +1,4 @@
+# reference: https://smartpy.io/docs/experimental/timelock/#chest
 import smartpy as sp
 
 class Timelock(sp.Contract):
@@ -37,3 +38,5 @@ def test():
     )
 
 sp.add_compilation_target("timelock_compilation", Timelock())
+
+# usage example: https://github.com/RomarQ/tezos-timelock#generate-chest-and-chest-key
