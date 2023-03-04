@@ -1,3 +1,6 @@
+## Deployed contract
+KT1Tgqeh2az5Wodga7tPzqPVeDpuCkm49TdN
+
 # hash_time_locked_contract
 A Hash Time Locked Contract (HTLC) is a type of digital agreement or smart contract used in cryptocurrency transactions. It involves two or more parties agreeing to exchange assets (such as cryptocurrencies) at a future date, subject to certain conditions.
 
