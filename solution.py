@@ -41,9 +41,12 @@ class Hashlock(sp.Contract):
 
         hashed = self.data.hashed
         sp.verify(hashed != sp.sha256(params.p), message = "Your commitment did not match the storage hash.")
-# how to handle operations?
-# https://smartpy.io/docs/types/operations/
+# this is the return statement of the original contract
 #   return [p.message(), s];
+# not entirely sure if this is the equivalent
+        sp.operations()
+# reference: https://smartpy.io/docs/types/operations/
+
 
 
 
