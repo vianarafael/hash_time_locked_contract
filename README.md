@@ -1,4 +1,4 @@
-## Deployed contract
+## Deployed contract (Ghostnet)
 KT1Tgqeh2az5Wodga7tPzqPVeDpuCkm49TdN
 
 # hash_time_locked_contract
